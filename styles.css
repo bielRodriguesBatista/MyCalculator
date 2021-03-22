@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container 
+{
+
+    height: 500px;
+    width: 350px;
+    padding: 10px;
+
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+header {
+    
+    flex-wrap: wrap;
+}
+
+.result-box, .buttons {
+
+    display: flex;
+    align-items: center;
+}
+
+.buttons{
+
+    height: 300px;
+
+    align-items: flex-end;
+    justify-content: center;
+}
